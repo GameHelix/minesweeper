@@ -1,6 +1,8 @@
 # course config files
 *.yaml
+Data/
 
+.claude
 # gradle
 .gradle/
 build
