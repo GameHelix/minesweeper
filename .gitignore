@@ -3,13 +3,41 @@
 Data/
 
 .claude
+
+# Python
+venv/
+env/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDE
+.idea
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Charts (optional - uncomment if you don't want to commit charts)
+# charts/
+
 # gradle
 .gradle/
 build
-
-
-# idea config
-.idea
 
 # old stages
 /Cinema Room Manager/*

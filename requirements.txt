@@ -1,0 +1,26 @@
+# Core Data Science Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Scientific Computing
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Jupyter (optional, for notebook usage)
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+nbconvert>=7.0.0
