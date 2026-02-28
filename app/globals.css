@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Classic 3-D cell effect */
+.cell-unrev {
+  background: #a8b4c4;
+  box-shadow:
+    inset -2px -2px 0 #6b7a8d,
+    inset 2px 2px 0 #dde4ef;
+  border: none;
+}
+
+.cell-unrev:hover:not(:disabled) {
+  background: #b8c4d4;
+}
+
+.cell-unrev:active:not(:disabled) {
+  background: #94a3b8;
+  box-shadow: inset 1px 1px 0 #6b7a8d;
+}
+
+.cell-rev {
+  background: #b0b8c8;
+  box-shadow: inset 1px 1px 0 #7a8494, inset -1px -1px 0 #d4dae6;
+  border: none;
+}
+
+.cell-mine-loss {
+  background: #ef4444;
+  box-shadow: inset 1px 1px 0 #991b1b, inset -1px -1px 0 #fca5a5;
+}
+
+/* LED / digital display */
+.led-display {
+  font-family: "Courier New", Courier, monospace;
+  background: #120c00;
+  color: #ff2200;
+  text-shadow: 0 0 8px #ff4400;
+  letter-spacing: 0.12em;
+  padding: 2px 8px;
+  border-radius: 3px;
+  border: 2px inset #1a1000;
+  min-width: 3.5ch;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  user-select: none;
+}

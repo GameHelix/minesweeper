@@ -44,3 +44,8 @@ build
 !/Cinema Room Manager/task/
 /Cinema Room Manager/task/*
 !/Cinema Room Manager/task/src
+
+node_modules/
+dist/
+.next/
+out/
